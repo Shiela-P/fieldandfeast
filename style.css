@@ -2,6 +2,7 @@
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+
 /* CSS RESET */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -62,7 +63,119 @@ table {
     --soft-white: #FAF9F6;
 }
 /* GLOBAL STYLES (mobile first/small) */
+html{
+	font-family: 'Playfair Display';
+}
+header{
+	background-color: var(--midnight_blue);
+}
 
+header img{
+	display: block;
+	margin: 0 auto;
+}
+
+h1{
+	color: var(--soft-white);
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+header p{
+	color: var(--soft-white);
+	font-style: italic;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+nav{
+	background-color: var(--champagne-gold);
+}
+
+header ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+header li{
+	color: var(--midnight_blue);
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 0.5em;
+}
+main{
+	margin: 1em;
+}
+
+h2{
+	color: var(--dark-charcoal);
+	font-size: 2em;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+p{
+	line-height: 1.25;
+}
+
+#welcome{
+	border-bottom: solid var(--champagne-gold) 3px;
+	padding-bottom: 1em;
+}
+
+
+#offerings{
+	display: grid;
+	gap: 1em;
+	color: var(--soft-white);
+	margin-bottom: 1em;
+}
+
+#offerings div{
+	background-color:var(--olive-green);
+	padding: 1em;
+	border-radius: 0.5em;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h3{
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 0.25em;
+}
+
+body li{
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+#our_offerings{
+	border-bottom: solid var(--champagne-gold) 3px;
+}
+
+#pictures{
+	display: grid;
+}
+
+#gallery img{
+	width: 100%;
+}
+
+#pictures div{
+	border-radius: 1em;
+	overflow: hidden;
+	text-align: center;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+	margin: 1em;
+
+}
+
+#pictures p{
+	font-style: italic;
+	padding: 0.25em;
+}
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
