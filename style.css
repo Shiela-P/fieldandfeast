@@ -107,6 +107,7 @@ header li{
 }
 main{
 	margin: 1em;
+	border-bottom: solid var(--champagne-gold) 3px;
 }
 
 h2{
@@ -146,7 +147,7 @@ h3{
 	margin-bottom: 0.25em;
 }
 
-body li{
+main li{
 	list-style-type: disc;
 	list-style-position: inside;
 }
@@ -174,8 +175,47 @@ body li{
 
 #pictures p{
 	font-style: italic;
-	padding: 0.25em;
+	padding: 0.5em;
 }
+
+button{
+	background-color: var(--olive-green);
+	color: var(--soft-white);
+	margin: 0 auto 1em auto;
+	display: block;
+	border: none;
+	width: 94%;
+	font-size: 1.5em;
+	padding: 0.5em;
+	font-weight: bold;
+	font-family: 'Playfair Display;';
+	border-radius: 0.25em;
+}
+
+footer{
+	background-color: var(--midnight_blue);
+	padding: 1em;
+	text-align: center;
+	color: var(--soft-white);
+	line-height: 1.5;
+}
+address{
+	margin-top: 2em;
+}
+
+footer a{
+	color: var(--champagne-gold);
+	text-decoration: none;
+	font-weight: bold;
+	padding-bottom: 3em;
+}
+
+footer p{
+	color: var(--champagne-gold);
+	font-weight: bold;
+	margin-top: 2em;
+}
+
 /* MEDIA QUERY (medium) */
 
 /* MEDIA QUERY (large) */
