@@ -87,6 +87,7 @@ header p{
 	font-style: italic;
 	text-align: center;
 	font-size: 1.5em;
+	margin: 1em;
 }
 
 nav{
@@ -216,7 +217,23 @@ footer p{
 	margin-top: 2em;
 }
 
+
+
 /* MEDIA QUERY (medium) */
+@media (min-width: 600px){
+	#offerings{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+	#monthly{
+		grid-column: 1 / -1;
+	}
+
+	#pictures{
+		grid-template-columns: 1fr 1fr;
+	}
+}
 
 /* MEDIA QUERY (large) */
 
