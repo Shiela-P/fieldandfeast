@@ -236,5 +236,19 @@ footer p{
 }
 
 /* MEDIA QUERY (large) */
+@media (min-width: 900px){
+	#pictures{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
 
 /* MEDIA QUERY (xl) */
+@media (min-width: 1200px){
+	#pictures{
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	}
+
+	main{
+		margin: 10em;
+	}
+}
